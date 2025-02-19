@@ -2,14 +2,14 @@ package algo03.StackAndQueue;
 
 import java.util.Stack;
 
-public class craneGame {
+public class stack_craneGame {
 	public static void main(String[] args) {
 		int[][] board = { { 0, 0, 0, 0, 0 }, { 0, 0, 1, 0, 3 }, { 0, 2, 5, 0, 1 }, { 4, 2, 4, 4, 2 },
 				{ 3, 5, 1, 3, 1 } };
 
 		int[] moves = { 1, 5, 3, 5, 1, 2, 1, 4 }; // 크레인이 움직이는 위치 배열
 
-		craneGame game = new craneGame();
+		stack_craneGame game = new stack_craneGame();
 		int result = game.solution(board, moves);
 
 		System.out.println("터진 인형 개수: " + result); // 예상 출력: 4

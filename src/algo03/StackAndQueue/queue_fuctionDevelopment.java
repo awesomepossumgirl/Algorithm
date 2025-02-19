@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class fuctionDevelopment {
+public class queue_fuctionDevelopment {
 
 	public static void main(String[] args) {
 		// 프로그래머스 기능개발 문제

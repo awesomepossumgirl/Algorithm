@@ -3,11 +3,11 @@ package algo03.StackAndQueue;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class truckCrossingtheBridge {
+public class queue_truckCrossingtheBridge {
 
 	public static void main(String[] args) {
 		// 프로그래머스 다리를 지나는 트럭 문제
-		truckCrossingtheBridge solution = new truckCrossingtheBridge();
+		queue_truckCrossingtheBridge solution = new queue_truckCrossingtheBridge();
 
         // 테스트 1
         int bridge_length1 = 2;

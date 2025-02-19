@@ -1,11 +1,10 @@
 package algo03.StackAndQueue;
 
-public class stockPrices {
+public class stack_stockPrices {
 
     public static void main(String[] args) {
         // 프로그래머스 주식가격 문제
-
-        // solution을 static으로 호출
+    	
         int[] prices1 = {1, 2, 3, 2, 3};
         int[] result1 = solution(prices1);
         System.out.print("Test 1: ");
@@ -20,9 +19,8 @@ public class stockPrices {
         int[] result2 = solution(prices2);
         System.out.print("Test 2: ");
         for (int i : result2) {
-            System.out.print(i + " ");
+            System.out.print(i + " "); // 1 1 2 1 0 (각각 가격이 떨어지기까지 걸리는 시간)
         }
-        // 1 1 2 1 0 (각각 가격이 떨어지기까지 걸리는 시간)
     }
 
     // prices 배열에 대해, 각 주식 가격이 언제 떨어지는지 구하는 문제

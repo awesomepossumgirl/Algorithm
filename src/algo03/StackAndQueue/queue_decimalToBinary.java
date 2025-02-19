@@ -2,7 +2,7 @@ package algo03.StackAndQueue;
 
 import java.util.Stack;
 
-public class decimalToBinary {
+public class queue_decimalToBinary {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

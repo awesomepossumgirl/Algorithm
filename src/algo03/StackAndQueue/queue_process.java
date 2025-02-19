@@ -5,11 +5,11 @@ import java.util.PriorityQueue;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class process {
+public class queue_process {
 
     public static void main(String[] args) {
         // 프로그래머스 프로세스 문제
-        process solution = new process();  // Create instance of Process class
+        queue_process solution = new queue_process();  // Create instance of Process class
 
         // 테스트 1
         int[] priorities1 = { 2, 1, 3, 2 };

@@ -3,11 +3,11 @@ package algo03.StackAndQueue;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class noMoreSameNums {
+public class stack_noMoreSameNums {
 
 	public static void main(String[] args) {
 		// 프로그래머스 같은 숫자는 싫어 문제
-		noMoreSameNums solution = new noMoreSameNums();
+		stack_noMoreSameNums solution = new stack_noMoreSameNums();
 
 		// 테스트 1
 		int[] arr1 = { 1, 1, 3, 3, 0, 1, 1 };

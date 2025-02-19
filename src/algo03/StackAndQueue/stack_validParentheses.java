@@ -2,11 +2,11 @@ package algo03.StackAndQueue;
 
 import java.util.Stack;
 
-public class validParentheses {
+public class stack_validParentheses {
 
 	public static void main(String[] args) {
 		// 프로그래머스 올바른 괄호 문제
-		validParentheses solution = new validParentheses();
+		stack_validParentheses solution = new stack_validParentheses();
 
 		// 테스트 코드
 		System.out.println(solution.solution("()()")); // true
