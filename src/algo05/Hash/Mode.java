@@ -28,12 +28,14 @@ public class Mode {
 		for (int num : array) {
 			frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
 		}
-		
+
 		/*
-		 * if (frequencyMap.containsKey(num)) { frequencyMap.put(num,
-		 * frequencyMap.get(num) + 1); } else { frequencyMap.put(num, 1); }
-		 */
-		
+		if (frequencyMap.containsKey(num)) {
+			frequencyMap.put(num, frequencyMap.get(num) + 1);
+		} else {
+			frequencyMap.put(num, 1);
+		}
+		*/
 
 		// 최빈값 찾기
 		for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
